@@ -6,6 +6,7 @@ menu.addEventListener("click", () => {
   navBar.classList.toggle("show");
   window.addEventListener("scroll", () => {
     navBar.classList.remove("show", window.scrollY > 100);
+    menu.classList.remove("active");
   });
 });
 // loading page
